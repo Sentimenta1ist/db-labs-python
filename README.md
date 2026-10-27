@@ -6,9 +6,9 @@ Year: 2020 · Stack: PostgreSQL 12, Python 3.7, psycopg2 · Context: university 
 
 ## What's inside
 
-- `lab1/` - database design. `my_script.sql` is a pg_dump of the schema: tables `users`, `groups`, `friends`, `walls`, `posts` and the many-to-many `users_groups_rel`, with identity primary keys and foreign keys (users are referenced by phone number). `structure*.png` are the ER/logical model diagrams, `report.docx` is the report (Ukrainian).
-- `LAB2/` - a console CRUD application in an MVC layout: `model.py` (database access via psycopg2), `view.py` (table printer), `controller.py` (menu loop), `config.py` + `config.ini` (connection settings). Menu: list tables, read, insert, delete, update, three predefined join searches, and fill a table with random rows. Two `.docx` reports.
-- `lab3/` - the same MVC code with a different random fill (users instead of groups). The topic of lab 3 was DBMS optimization: moving the model to an ORM (SQLAlchemy), comparing index types and writing a trigger. The two reports in this folder describe that work; the ORM/index/trigger code itself is not in the repository.
+- `lab1/` - database design. `my_script.sql` is a pg_dump of the schema: tables `users`, `groups`, `friends`, `walls`, `posts` and the many-to-many `users_groups_rel`, with identity primary keys and foreign keys (users are referenced by phone number). `structure*.png` are the ER/logical model diagrams.
+- `LAB2/` - a console CRUD application in an MVC layout: `model.py` (database access via psycopg2), `view.py` (table printer), `controller.py` (menu loop), `config.py` + `config.ini` (connection settings). Menu: list tables, read, insert, delete, update, three predefined join searches, and fill a table with random rows.
+- `lab3/` - the same MVC code with a different random fill (users instead of groups). The topic of lab 3 was DBMS optimization: moving the model to an ORM (SQLAlchemy), comparing index types and writing a trigger. That ORM/index/trigger code is not in the repository.
 
 ## Interesting bits
 
